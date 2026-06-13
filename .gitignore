@@ -1,0 +1,62 @@
+node_modules/
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+# Dependencies
+node_modules/
+
+# SvelteKit & Vite build output
+.svelte-kit/
+build/
+dist/
+.vite/
+
+# Environment variables (RAHASIA — jangan di-commit)
+.env
+.env.*
+!.env.example
+
+# Database lokal (libSQL/SQLite untuk development)
+local.db
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Cloudflare (jika deploy ke Workers/Pages)
+.wrangler/
+.dev.vars
+
+# Vercel
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test coverage (jika nanti pakai vitest/playwright)
+coverage/
+/test-results/
+/playwright-report/
+
+# Editor & OS
+.idea/
+.DS_Store
+Thumbs.db
